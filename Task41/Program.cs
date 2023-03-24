@@ -8,7 +8,7 @@ void PositiveCount()
     Console.Write("Введите число: ");
     try
     {
-        for (var num = Console.ReadLine(); num != "";)
+        for (var num = Console.ReadLine(); num != null;)
         {
             if (Convert.ToInt32(num) > 0) count++;
             Console.Write("Введите число: ");
